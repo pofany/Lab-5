@@ -1,0 +1,64 @@
+body {
+    font-family: "Handclaps", serif;
+    color: #ffffff; /* Білий колір шрифту */
+    font-size: medium;
+    background-image: url('images/m.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.05em;
+}
+
+h1 {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Темний прозорий фон для заголовка */
+    color: #f4ebd0; /* Світлий колір тексту */
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: "64", serif;
+}
+
+.text {
+    margin-left: 30%;
+    margin-top: -400px;
+    font-size: 1.5em;
+    color: #f4ebd0;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+
+/* Фон списку також може мати прозорість */
+.list {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@font-face {
+    font-family: "Handclaps";
+    src: url("fonts/handclaps/Handclaps DEMO.otf");
+}
+
+@font-face {
+    font-family: "64";
+    src: url("fonts/Sixtyfour_Convergence/SixtyfourConvergence-Regular-VariableFont_BLED,SCAN,XELA,YELA.ttf") format("truetype");
+}
+
+.icon {
+    font-family: "Playwrite BE", serif;
+    font-size: 2em;
+    margin-left: 140px;
+    color: black;
+
+
+}
